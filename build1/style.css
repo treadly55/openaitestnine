@@ -1,0 +1,159 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 4px 1px 10px  #252F42;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-image: url('images/world-map.png');
+    background-size:cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+ header > img {
+    width: 94px;
+    height: 84px;
+}
+
+/* #headerImage {
+    border: 1px solid red;
+} */
+
+h1 {
+    color: #32CD32;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #252F42;
+    border-radius: 8px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 5px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #035A9D;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#userInput {
+    width: calc(350px - 20px);
+    height: 160px;
+    background-color: #EFF0F4;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    overflow: wrap;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fu {height: 5px;}
+
+.radio-section {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding-left: 30px;
+}
+
+.radio-section label {
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #035A9D;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* .translated-text {
+    display: none;
+} */
+
+#translatedTextBox {
+    width: calc(350px - 20px);
+    height: 160px;
+    background-color: #EFF0F4;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    overflow: wrap;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 2px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.translated-text p {
+    color: black;
+    font-size: 1.1rem;
+}
+   
+.hide {
+    display: none; 
+}
