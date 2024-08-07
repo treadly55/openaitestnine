@@ -1,5 +1,5 @@
 import { OpenAI } from "openai"
-
+require('dotenv').config();
 
 
 const spaceShip = document.getElementById('klingonLang')
@@ -39,7 +39,8 @@ async function askChatGPT(input) {
 try {
     const openai = new OpenAI({
     // apiKey: 'sk-proj-QUdLGg6wJjFPDGYOaEy9T3BlbkFJuIQYbQvjDDGIgBdcjgsZ',
-    apiKey: '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',
+    // apiKey: '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',
+    apiKey: process.env.API_KEY,
     dangerouslyAllowBrowser: true
     })
     
